@@ -1,0 +1,187 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb}
+
+\usepackage{amsmath}
+
+\usepackage{geometry}
+
+\usepackage{graphicx}
+
+%\usepackage{pst-poly}
+%\usetikzlibrary{shapes}
+
+%\usepackage{tikz}
+
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\Z}{\mathbb{Z}}
+
+\newcommand{\Q}{\mathbb{Q}}
+
+\newcommand{\R}{\mathbb{R}}
+
+\newcommand{\C}{\mathbb{C}}
+
+\newcommand{\Zp}{\mathbb{Z}_p}
+
+\newcommand{\numb}[1]{\noindent{\bf #1)}}
+
+\newcommand{\n}{\Vert}
+
+\newcommand{\ip}[2]{\langle #1, #2\rangle}
+
+\usepackage{xcolor}
+
+\usepackage[framemethod=tikz]{mdframed}
+
+\definecolor{cccolor}{rgb}{.67,.7,.67}
+
+
+
+
+
+\begin{document}
+
+
+
+\centerline{\bf How to Be Perfect}
+
+\bigskip
+
+%\noindent{\bf Due Thursday, September 20}
+
+%\bigskip
+
+%\numb{1} Find the pattern
+
+\bigskip
+
+ 
+
+\bigskip
+
+\numb{1} We'll start by looking at the whole numbers from 2 to 10.
+
+\bigskip
+
+a) For each number, find all of its \textit{proper} divisors, meaning all divisors that are not equal to the number itself. 
+
+\bigskip
+
+b) For each number, add up all of its proper divisors.
+
+\bigskip
+
+c) How many whole numbers from 2 to 10 are equal to the sum of their proper divisors? Such a number is called \textit{perfect}.
+
+
+\newpage
+
+\numb{2} Recapping, a whole number that is the sum of its proper divisors is called \textit{perfect}. A number that is bigger than the sum of its proper divisors is called \textit{deficient} and a number that is smaller than the sum of its proper divisors is called \textit{abundant}.
+
+\bigskip
+
+a) How many of the whole numbers from 11 to 20 are perfect, deficient, or abundant?
+
+\bigskip
+
+b) How many of the whole numbers from 21 to 30 are perfect, deficient, or abundant?
+
+
+
+\newpage 
+
+\numb{3} Now think of all the whole numbers, of which there are infinitely many.
+
+\bigskip
+
+a) How many deficient numbers do you think there are? Can you convince everyone that your answer is true? 
+
+\bigskip
+
+b) Same question for abundant numbers. 
+
+\bigskip
+
+c) Same question for perfect numbers. 
+
+
+\newpage
+
+\numb{4} Remember that a whole number greater than 1 is \textit{prime} if its only proper divisor is 1. 
+
+\bigskip
+
+a) How many prime numbers are there? Does this help to answer 3a) (if you haven't already)?
+
+\bigskip
+
+b) If $p$ is a prime number, is $2^p$ a prime number? How about $2^p-1$?
+
+\newpage
+
+\numb{5} A prime number of the form $2^p-1$ where $p$ is prime is called a \textit{Mersenne prime}.
+
+\bigskip
+
+a) Can you show that any number of the form $(2^p-1)(2^{p-1})$ where $2^p-1$ is a Mersenne prime is perfect?
+
+\bigskip
+
+b) Calculate the 3rd and 4th perfect numbers using a).
+
+\bigskip
+
+c) Can you show that any perfect number obtained by the rule in a) ends in a 6 or 8?
+
+\bigskip
+
+d) How many Mersenne primes do you think there are? Can you convince everyone else?
+
+\newpage
+
+\numb{6} Here are some bizarre facts about perfect numbers for you to think about. See if you can get at why they should be true. 
+
+\bigskip
+
+a) The only perfect number that is the sum of two cubes is 28.
+
+\bigskip
+
+b) The only perfect number that is not divisible by a perfect square is 6. 
+
+
+\newpage
+
+\numb{7} These last two problems are challenging.
+
+\bigskip
+
+a) Show that any EVEN perfect number is of the form $(2^p-1)(2^{p-1})$ where $2^p-1$ is a Mersenne prime.
+
+\bigskip
+
+b) Find an odd perfect number. To get you going, here are some facts about such a number: it has at least 101 prime factors and at least 10 distinct prime factors, and if 3 is not one of the factors, then it has at least 12 distinct prime factors. 
+
+
+
+
+
+\newpage
+
+\begin{mdframed}[outerlinecolor=black,outerlinewidth=2pt,linecolor=cccolor,middlelinewidth=3pt,roundcorner=10pt]
+  This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+  \begin{center}
+    \includegraphics[scale=2]{CCImage.png}
+  \end{center}
+\end{mdframed}
+
+
+
+\bigskip
+
+
+\end{document}
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Perfect Numbers Math Circles Worksheet</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Alan Wiggins</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
