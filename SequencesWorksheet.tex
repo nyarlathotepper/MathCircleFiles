@@ -1,0 +1,193 @@
+\documentclass[12pt]{article}
+
+\usepackage{amssymb}
+
+\usepackage{amsmath}
+
+\usepackage{geometry}
+
+\usepackage{xcolor}
+
+\usepackage[framemethod=tikz]{mdframed}
+
+\definecolor{cccolor}{rgb}{.67,.7,.67}
+
+%\usepackage{pst-poly}
+%\usetikzlibrary{shapes}
+
+%\usepackage{tikz}
+
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\Z}{\mathbb{Z}}
+
+\newcommand{\Q}{\mathbb{Q}}
+
+\newcommand{\R}{\mathbb{R}}
+
+\newcommand{\C}{\mathbb{C}}
+
+\newcommand{\Zp}{\mathbb{Z}_p}
+
+\newcommand{\numb}[1]{\noindent{\bf #1)}}
+
+\newcommand{\n}{\Vert}
+
+\newcommand{\ip}[2]{\langle #1, #2\rangle}
+
+\begin{document}
+
+\centerline{\bf And the next number is\dots}
+
+\bigskip
+
+%fun finite sequences. The first is the current list of denominations the United States Mint issues in increasing order, the second is the number is syllables of letters in the Latin Alphabet read backwards, and the last is the number of days per month in the Gregorian calendar in increasing order. 
+
+A \textit{sequence} is just a list of numbers. The list can stop (finite) or can go on forever (infinite) and the order of the list is important:
+
+\[
+1,2,3,4,5,\dots
+\]
+is not the same as
+\[
+1,3,2,4,5,\dots
+\]
+
+The objects in the sequence are called the \textit{terms} of the sequence. The idea in understanding any sequence is to find a pattern in how the terms are created. We'll start off with some finite sequences using just numbers. Try to find the next two terms in the sequence. 
+
+\bigskip
+
+\numb{1} a) $1,2,5,10,20,\dots$ (7 terms)
+
+\vspace{1in}
+
+b) $1,1,1,3,1,\dots$ (26 terms)
+
+\vspace{1in}
+
+c) $31,28,31,30,31,30,31,\dots$ (12 terms)
+
+\newpage
+
+%these are non-numerical sequences, the last being my favorite. 
+
+\numb{2} A sequence doesn't just have to be numbers, though. You can use pretty much anything that you can dream up an order on. The second example is finite and the other two are infinite. 
+
+\bigskip
+
+a) $\triangle,\square,\dots$
+
+\vspace{1in}
+
+b) $AZ,GT,MN,\dots$
+
+\vspace{1in}
+
+c) $O,T,T,F,F,S,S,\dots$
+
+\newpage
+
+%the most fun numercal sequences I know. 
+
+\numb{3} We'll now leave non-numerical sequences in the past. Try to find the next two terms of the following sequences.
+
+\bigskip
+
+a) $1,0,1,0,1,\dots$
+
+\bigskip
+
+b) $1,3,7,15,31,\dots$
+
+\bigskip
+
+c) $3,8,13,18,\dots$ (how is this one similar to the the sequence in a)?)
+
+\bigskip 
+
+d) $1/4,-1/9,1/16,-1/25,\dots$
+
+\bigskip
+
+e) $0,6,24,60,120,\dots$
+
+\bigskip
+
+f) $1,1,2,3,5,8,13,\dots$
+
+\bigskip
+
+g) $2,3,5,7,11,13,\dots$
+
+\bigskip
+
+h) $23,21,24,19,26,15,\dots$ 
+
+\bigskip
+
+i) Find the ones digit of the 63rd term of $7,7^2,7^3,7^4,7^5,\dots$
+
+\bigskip
+
+j) $1,11,21,1211,111221,312211,\dots$
+
+\newpage
+
+%convergence of infinite sequences, lite. No formal definitions given. 
+
+\numb{4} We'll restrict our attention to infinite sequences for the remainder of the time. What concerns mathematicians (and supposedly physicists) is whether a given sequence's terms ``tend to" a given number. If the numbers in a sequence eventually get closer and closer to some number $L$, we say that the sequence \textit{converges} and we call the number $L$ the \textit{limit} of the sequence. 
+
+\bigskip
+
+a) Sometimes the sequence has a term in it that is the limit and sometimes it doesn't (that's why we call it a limit). What is the limit of the sequence $1,1,1,1,\dots $? Is there a term in the sequence that hits the limit?
+
+\bigskip
+
+b) Same questions as a) for $1/2,-1/3,1/4,-1/5,\dots$
+
+\bigskip
+
+c) Same questions as a) for $5/2,2,5/3,2,9/4,2,9/5,\dots$
+
+\bigskip
+
+d) Same questions as a) for $1,0,1,0,1,\dots$
+
+\newpage
+
+%continued fractions!
+
+
+\numb{5} Finally, we look at some special sequences, called \textit{continued fractions}. Every real number $x$ has a continued fraction expansion.  Such an expansion is just a sequence that converges to $x$. What follows are some continued fraction expansions, try to find the number that has been expanded (you don't have to worry about whether there is actually a limit, you may assume there is). The terms are purposefully written is a rather silly way. Parts a) and b) are infinite sequences. 
+
+\bigskip 
+
+a) $1, 1+\frac 1{1+1},1+\frac 1 {1+\frac 1 {1+1}},1+\frac 1 {1+\frac 1 {1+\frac 1 {1+1}}},\dots$ 
+
+\bigskip
+
+b) $2, 2+\frac 1 {2+2},2+\frac 1 {2+\frac 1 {2+2}},2+\frac 1 {2+\frac 1 {2+\frac 1 {2+2}}},\dots$ (If you've gotten a), this should be easy.)
+
+\bigskip
+
+c) Notice what kind of numbers you're getting in a) and b). If you have a \textit{finite} continued fraction expansion, what kind of number results? Can you determine a continued fraction expansion for such a number?
+
+\newpage
+
+\begin{mdframed}[outerlinecolor=black,outerlinewidth=2pt,linecolor=cccolor,middlelinewidth=3pt,roundcorner=10pt]
+  This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+  \begin{center}
+    \includegraphics[scale=2]{CCImage.png}
+  \end{center}
+\end{mdframed}
+
+
+
+
+
+
+
+\bigskip
+
+
+\end{document}
